@@ -382,7 +382,9 @@ function Navbar({ page, setPage }) {
       <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 72 }}>
         {/* Logo */}
         <button onClick={() => { setPage("home"); setMenuOpen(false); window.scrollTo(0,0); }} style={{ background: "none", border: "none", cursor: "pointer", display: "flex", alignItems: "center", gap: 10 }}>
-          <img src="https://i.ibb.co/ccC5VspX/Mybusiness-Avenirya.png" alt="Logo" className="w-10 h-10" />
+          <div style={{ width: 36, height: 36, borderRadius: 10, background: "linear-gradient(135deg, #6366f1, #4f46e5)", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 4px 20px rgba(99,102,241,0.4)" }}>
+            <img src="https://i.ibb.co/ccC5VspX/Mybusiness-Avenirya.png" alt="Logo" style={{ width: "100%", height: "100%", borderRadius: 10 }} />
+          </div>
           <span className="font-display" style={{ fontWeight: 700, fontSize: "1.15rem", color: "#f0f4ff" }}>
             My<span style={{ color: "#6366f1" }}>Business</span>
           </span>
