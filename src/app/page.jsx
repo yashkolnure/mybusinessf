@@ -38,7 +38,7 @@ const GlobalStyles = () => {
     style.textContent = `
       *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
       html { scroll-behavior: smooth; }
-      body { background: #06080f; color: #f0f4ff; font-family: 'Plus Jakarta Sans', sans-serif; overflow-x: hidden; }
+      body { background: #06080f; color: #f0f4ff; font-family: overflow-x: hidden; }
       ::-webkit-scrollbar { width: 6px; }
       ::-webkit-scrollbar-track { background: #06080f; }
       ::-webkit-scrollbar-thumb { background: #6366f1; border-radius: 3px; }

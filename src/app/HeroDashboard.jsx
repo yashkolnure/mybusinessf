@@ -29,7 +29,6 @@ const DASH_STYLE = `
     padding:7px 9px; border-radius:8px;
     font-size:.7rem; font-weight:600; letter-spacing:.02em;
     transition:background .2s,color .2s;
-    font-family:'Plus Jakarta Sans',sans-serif;
     color:#475569; white-space:nowrap;
   }
   .db-module-btn.active { background:rgba(99,102,241,.18); color:#a5b4fc; }
@@ -494,7 +493,6 @@ export default function HeroDashboard() {
           borderRadius:18,
           boxShadow:"0 40px 100px rgba(0,0,0,.65), 0 0 60px rgba(99,102,241,.08), inset 0 1px 0 rgba(255,255,255,.05)",
           overflow:"hidden",
-          fontFamily:"'Plus Jakarta Sans',sans-serif",
         }}>
 
           {/* Title bar */}
